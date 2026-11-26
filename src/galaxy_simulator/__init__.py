@@ -1,5 +1,8 @@
 from importlib.metadata import version
-from src.galaxy_simulator import CelestialObject
+
+from galaxy_simulator.galaxy import Galaxy
+from galaxy_simulator.celestial_object import CelestialObject
+
 
 __version__ = version("galaxy_simulator")
-__all__ = ["CelestialObject"]
+__all__ = ["CelestialObject","Galaxy"]
