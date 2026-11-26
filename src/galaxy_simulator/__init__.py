@@ -1,3 +1,4 @@
-from import.metadata import version
+from importlib.metadata import version
 
-__version__ = version(galaxy_simulator)
+__version__ = version("galaxy_simulator")
+
